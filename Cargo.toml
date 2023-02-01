@@ -1,0 +1,15 @@
+[package]
+name = "tx_sim"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+indicatif = "0.17.3"
+num-format = "0.4.4"
+rayon = "1.6.1"
+solana-client = "1.14.13"
+solana-sdk = "1.14.13"
+tokio = { version = "1.25.0", features = ["full"] }
+tokio-scoped = "0.2.0"
